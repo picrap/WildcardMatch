@@ -4,8 +4,8 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>WildcardMatch</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
+    <authors>picrap</authors>
+    <owners>picrap</owners>
     <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
     <projectUrl>https://github.com/picrap/WildcardMatch</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/picrap/WildcardMatch/master/Icon/WildcardMatch.png</iconUrl>
@@ -14,7 +14,7 @@
     <description>$description$</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright Pascal Craponne 2015</copyright>
-    <tags>string wildcard match extension method</tags>
+    <tags>string wildcard match extension method portable pcl net silverlight windows phone</tags>
     <developmentDependency>false</developmentDependency>
   </metadata>
   <files>
