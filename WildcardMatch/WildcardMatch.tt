@@ -10,7 +10,6 @@
     <authors><#=Company#></authors>
     <owners><#=Company#></owners>
     <licenseUrl><#=LicenseUrl#></licenseUrl>
-    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
     <projectUrl>https://github.com/picrap/WildcardMatch</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/picrap/WildcardMatch/master/Icon/WildcardMatch.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
