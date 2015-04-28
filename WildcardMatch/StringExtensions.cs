@@ -5,6 +5,9 @@ namespace WildcardMatch
 {
     using System.Linq;
 
+    /// <summary>
+    /// Extensions to <see cref="System.String"/>
+    /// </summary>
     public static class StringExtensions
     {
         /// <summary>
