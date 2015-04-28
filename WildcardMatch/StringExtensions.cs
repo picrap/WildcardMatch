@@ -18,10 +18,11 @@ namespace WildcardMatch
         /// </summary>
         /// <param name="wildcard">The wildcard.</param>
         /// <param name="s">The s.</param>
+        /// <param name="ignoreCase">if set to <c>true</c> [ignore case].</param>
         /// <returns></returns>
-        public static bool WildcardMatch(this string wildcard, string s)
+        public static bool WildcardMatch(this string wildcard, string s, bool ignoreCase = false)
         {
-            return WildcardMatch(wildcard, s, 0, 0);
+            return WildcardMatch(wildcard, s, 0, 0, ignoreCase);
         }
 
         /// <summary>
@@ -31,8 +32,9 @@ namespace WildcardMatch
         /// <param name="s">The s.</param>
         /// <param name="wildcardIndex">Index of the wildcard.</param>
         /// <param name="sIndex">Index of the s.</param>
+        /// <param name="ignoreCase">if set to <c>true</c> [ignore case].</param>
         /// <returns></returns>
-        private static bool WildcardMatch(this string wildcard, string s, int wildcardIndex, int sIndex)
+        private static bool WildcardMatch(this string wildcard, string s, int wildcardIndex, int sIndex, bool ignoreCase)
         {
             for (; ; )
             {
@@ -51,9 +53,11 @@ namespace WildcardMatch
                         if (wildcardIndex == wildcard.Length - 1)
                             return true;
                         // test if a match follows
-                        return Enumerable.Range(sIndex, s.Length - 1).Any(i => WildcardMatch(wildcard, s, wildcardIndex + 1, i));
+                        return Enumerable.Range(sIndex, s.Length - 1).Any(i => WildcardMatch(wildcard, s, wildcardIndex + 1, i, ignoreCase));
                     default:
-                        if (c != s[sIndex])
+                        var cc = ignoreCase ? char.ToLower(c) : c;
+                        var sc = ignoreCase ? char.ToLower(s[sIndex]) : s[sIndex];
+                        if (cc != sc)
                             return false;
                         break;
                 }

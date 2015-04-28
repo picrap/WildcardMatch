@@ -1,6 +1,6 @@
 ﻿<#
     // all common data between assembly information and nuspec package are stored here
-    var Version = "1.0.2";
+    var Version = "1.0.3";
     var Title = "WildcardMatch";
     var Company = "picrap";
     var License = "MIT License";

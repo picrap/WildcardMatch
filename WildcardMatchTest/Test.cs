@@ -22,6 +22,18 @@ namespace WildcardMatchTest
         }
 
         [TestMethod]
+        public void NoWildcardNoMatchConsiderCaseTest()
+        {
+            Assert.IsFalse("a".WildcardMatch("A", false));
+        }
+
+        [TestMethod]
+        public void NoWildcardNoMatchMixedCaseTest()
+        {
+            Assert.IsTrue("a".WildcardMatch("A", true));
+        }
+
+        [TestMethod]
         public void QuestionMarkMatchTest()
         {
             Assert.IsTrue("a?".WildcardMatch("aa"));
