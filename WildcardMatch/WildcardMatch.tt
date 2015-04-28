@@ -1,23 +1,28 @@
 <?xml version="1.0"?>
+<#@ template debug="false" hostspecific="true" language="C#" #>
+<#@ output extension=".nuspec" #>
+<#@ include file="Properties\ProductInfoValues.tt" #>
 <package>
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>WildcardMatch</title>
-    <authors>picrap</authors>
-    <owners>picrap</owners>
+    <id>WildcardMatch</id>
+    <version><#=Version#></version>
+    <title><#=Title#></title>
+    <authors><#=Company#></authors>
+    <owners><#=Company#></owners>
+    <licenseUrl><#=LicenseUrl#></licenseUrl>
     <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
     <projectUrl>https://github.com/picrap/WildcardMatch</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/picrap/WildcardMatch/master/Icon/WildcardMatch.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <summary>Extension method to match strings using wildcards</summary>
-    <description>$description$</description>
+    <description><#=Description#></description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright Pascal Craponne 2015</copyright>
     <tags>string wildcard match extension method portable pcl net silverlight windows phone</tags>
     <developmentDependency>false</developmentDependency>
   </metadata>
   <files>
-    <!--<file src="$SolutionDir$WildcardMatch\bin\$ConfigurationName$\WildcardMatch.xml" target="lib\net40-Client"/>-->
   </files>
 </package>
+
+ 
