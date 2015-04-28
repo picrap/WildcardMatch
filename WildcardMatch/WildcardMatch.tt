@@ -20,7 +20,4 @@
     <tags>string wildcard match extension method portable pcl net silverlight windows phone</tags>
     <developmentDependency>false</developmentDependency>
   </metadata>
-  <files>
-    <file src="$SolutionDir$WildcardMatch\bin\$ConfigurationName$\WildcardMatch.xml" target="lib\portable-net40+sl40+win+wp"/>
-  </files>
 </package>
