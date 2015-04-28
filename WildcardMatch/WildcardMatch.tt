@@ -21,6 +21,6 @@
     <developmentDependency>false</developmentDependency>
   </metadata>
   <files>
-    <file src="$SolutionDir$WildcardMatch\bin\$ConfigurationName$\WildcardMatch.xml" target="lib\portable-net40%2Bsl40%2Bwin%2Bwp"/>
+    <file src="$SolutionDir$WildcardMatch\bin\$ConfigurationName$\WildcardMatch.xml" target="lib\portable-net40+sl40+win+wp"/>
   </files>
 </package>
