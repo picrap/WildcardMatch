@@ -16,7 +16,7 @@
     <summary>Extension method to match strings using wildcards</summary>
     <description><#=Description#></description>
     <releaseNotes></releaseNotes>
-    <copyright>Copyright Pascal Craponne 2015</copyright>
+    <copyright>Copyright 2015</copyright>
     <tags>string wildcard match extension method portable pcl net silverlight windows phone</tags>
     <developmentDependency>false</developmentDependency>
   </metadata>
