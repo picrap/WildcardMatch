@@ -1,80 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg3336"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   xml:space="preserve"
-   width="354.32501"
-   height="354.32501"
-   viewBox="0 0 354.32501 354.32501"
-   sodipodi:docname="WildcardMatch.svg"><metadata
-     id="metadata3342"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
-     id="defs3340"><clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath3350"><path
-         d="m 0,283.46 283.46,0 L 283.46,0 0,0 0,283.46 Z"
-         id="path3352"
-         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1030"
-     id="namedview3338"
-     showgrid="false"
-     inkscape:zoom="0.72124892"
-     inkscape:cx="-81.675577"
-     inkscape:cy="403.80921"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" /><g
-     id="g3344"
-     inkscape:groupmode="layer"
-     inkscape:label="Parenthesis"
-     transform="matrix(1.25,0,0,-1.25,0,354.325)"><g
-       id="g3346"
-       transform="matrix(0,1,-1,0,283.46,0)"><g
-         id="g3348"
-         clip-path="url(#clipPath3350)"><g
-           id="g3354"
-           transform="translate(215.4285,0)"><path
-             d="m 0,0 -147.397,0 c -37.417,0 -68.031,30.614 -68.031,68.031 l 0,147.397 c 0,37.418 30.614,68.032 68.031,68.032 L 0,283.46 c 37.417,0 68.031,-30.614 68.031,-68.032 l 0,-147.397 C 68.031,30.614 37.417,0 0,0"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path3356"
-             inkscape:connector-curvature="0" /></g><g
-           id="g3358"
-           transform="translate(212.9304,37.7131)"><path
-             d="m 0,0 -142.227,0 c -14.685,0.029 -27.07,9.785 -31.062,23.163 l -33.834,0 c 4.511,-31.809 31.827,-56.29 64.896,-56.29 l 142.227,0 c 33.072,0 60.385,24.481 64.883,56.29 l -33.82,0 C 27.063,9.785 14.682,0.029 0,0 m -142.227,207.059 142.227,0 c 14.685,-0.021 27.069,-9.784 31.066,-23.176 l 33.832,0 C 60.391,215.713 33.076,240.195 0,240.195 l -142.227,0 c -33.074,0 -60.394,-24.463 -64.898,-56.312 l 33.833,0 c 3.989,13.392 16.376,23.155 31.065,23.176"
-             style="fill:#44aa00;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path3360"
-             inkscape:connector-curvature="0" /></g></g></g><text
-       transform="matrix(1,0,0,-1,60.041,69.9912)"
-       style="font-variant:normal;font-weight:900;font-stretch:normal;font-size:154.22929382px;font-family:'Blackoak Std';-inkscape-font-specification:BlackoakStd;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text3378"><tspan
-         x="0"
-         y="0"
-         id="tspan3380">1</tspan></text>
-</g><g
-     inkscape:groupmode="layer"
-     id="layer1"
-     inkscape:label="Asterisk"><path
-       inkscape:connector-curvature="0"
-       d="m 44.911145,164.86276 14.990203,-46.52131 93.042592,30.49731 0,-97.694732 48.58891,0 0,97.694732 93.04261,-30.49731 14.99019,46.52131 -93.0426,29.98039 57.37627,79.0862 -39.28465,28.42969 -57.37627,-79.08621 -57.37627,79.08621 -39.28465,-28.42969 57.37627,-79.0862 z"
-       id="path4215" /></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="354.3px"
+	 height="354.3px" viewBox="-120 243.6 354.3 354.3" enable-background="new -120 243.6 354.3 354.3" xml:space="preserve">
+<g id="Calque_2">
+	<rect x="-119.9" y="243.6" display="none" fill="#C64D9B" stroke="#EC2024" stroke-miterlimit="10" width="354.3" height="354.3"/>
+	<ellipse fill="#FFFFFF" cx="57.1" cy="420.8" rx="177.6" ry="176"/>
+	<g>
+		<path fill="#44A948" d="M57.7,559.8c-18.9,0-36.9-3.8-53.3-10.7l-12.1,29.4c20.2,8.4,42.3,13.1,65.4,13.1
+			c59.3,0,111.5-30.3,142.2-76.3h-40.5C134,542.6,97.9,559.8,57.7,559.8z"/>
+		<path fill="#44A948" d="M57.7,280c18.9,0,36.9,3.8,53.3,10.7l12.1-29.4c-20.2-8.4-42.2-13.1-65.4-13.1
+			c-59.3,0-111.5,30.3-142.2,76.3h40.5C-18.5,297.2,17.6,280,57.7,280z"/>
+	</g>
+	<g display="none">
+		<path display="inline" fill="#F58B1F" d="M57.7,559.8c-18.9,0-36.9-3.8-53.3-10.7l-12.1,29.4c20.2,8.4,42.3,13.1,65.4,13.1
+			c59.3,0,111.5-30.3,142.2-76.3h-40.5C134,542.6,97.9,559.8,57.7,559.8z"/>
+		<path display="inline" fill="#F58B1F" d="M57.7,280c18.9,0,36.9,3.8,53.3,10.7l12.1-29.4c-20.2-8.4-42.2-13.1-65.4-13.1
+			c-59.3,0-111.5,30.3-142.2,76.3h40.5C-18.5,297.2,17.6,280,57.7,280z"/>
+	</g>
+</g>
+<g id="svg3336" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" inkscape:version="0.91 r13725" sodipodi:docname="WildcardMatch.svg">
+	
+		<sodipodi:namedview  id="namedview3338" pagecolor="#ffffff" bordercolor="#666666" inkscape:cy="403.80921" objecttolerance="10" inkscape:zoom="0.72124892" showgrid="false" gridtolerance="10" guidetolerance="10" borderopacity="1" inkscape:cx="-81.675577" inkscape:current-layer="layer1" inkscape:window-maximized="1" inkscape:window-y="-8" inkscape:window-x="-8" inkscape:window-width="1920" inkscape:pageshadow="2" inkscape:pageopacity="0" inkscape:window-height="1030">
+		</sodipodi:namedview>
+	
+		<g id="g3344" transform="matrix(1.25,0,0,-1.25,0,354.325)" inkscape:label="Parenthesis" inkscape:groupmode="layer" display="none">
+		<g id="g3346" transform="matrix(0,1,-1,0,283.46,0)" display="inline">
+			<g>
+				<defs>
+					<rect id="SVGID_1_" x="-230.3" y="60.6" width="354.3" height="354.3"/>
+				</defs>
+				<clipPath id="SVGID_2_">
+					<use xlink:href="#SVGID_1_"  overflow="visible"/>
+				</clipPath>
+				<g id="g3348" clip-path="url(#SVGID_2_)">
+					<g id="g3354" transform="translate(215.4285,0)">
+						<path id="path3356" inkscape:connector-curvature="0" fill="#FFFFFF" d="M-194.9,96h-147.4c-37.4,0-68,30.6-68,68v147.4
+							c0,37.4,30.6,68,68,68l147.4,0c37.4,0,68-30.6,68-68V164C-126.8,126.6-157.4,96-194.9,96"/>
+					</g>
+					<g id="g3358" transform="translate(212.9304,37.7131)">
+						<path id="path3360" inkscape:connector-curvature="0" fill="#44AA00" d="M-194.9,96h-142.2c-14.7,0-27.1,9.8-31.1,23.2H-402
+							c4.5-31.8,31.8-56.3,64.9-56.3h142.2c33.1,0,60.4,24.5,64.9,56.3h-33.8C-167.8,105.8-180.2,96-194.9,96 M-337.1,303.1h142.2
+							c14.7,0,27.1-9.8,31.1-23.2h33.8c-4.5,31.8-31.8,56.3-64.9,56.3h-142.2c-33.1,0-60.4-24.5-64.9-56.3h33.8
+							C-364.2,293.3-351.8,303-337.1,303.1"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		
+			<text transform="matrix(0.8 0 0 -0.8 -35.9589 -124.861)" display="inline" fill="#FFFFFF" font-family="'Arial-Black'" font-size="192.7866">1</text>
+	</g>
+	<g id="layer1" inkscape:label="Asterisk" inkscape:groupmode="layer">
+		<path id="path4215" inkscape:connector-curvature="0" d="M-75.1,408.4l15-46.5l93,30.5v-97.7h48.6v97.7l93-30.5l15,46.5l-93,30
+			l57.4,79.1l-39.3,28.4l-57.4-79.1l-57.4,79.1l-39.3-28.4L18,438.4L-75.1,408.4z"/>
+	</g>
+</g>
+</svg>
