@@ -1,9 +1,0 @@
-﻿<#
-    // all common data between assembly information and nuspec package are stored here
-    var Version = "1.0.5";
-    var Title = "Wildcard Match";
-    var Company = "openstore.craponne.fr";
-    var License = "MIT License";
-    var LicenseUrl = "http://opensource.org/licenses/mit-license.php";
-    var Description = "String wildcard match (I can not believe no one already wrote a simple NuGet package to do this).";
-#>
