@@ -4,7 +4,7 @@
     <TargetFrameworks>net40;netstandard1.0</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <PackageId>WildcardMatch</PackageId>
-    <Version>1.0.5</Version>
+    <Version>1.0.6</Version>
     <Company>picrap</Company>
     <PackageLicenseUrl>https://github.com/picrap/WildcardMatch/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/picrap/WildcardMatch</PackageProjectUrl>
