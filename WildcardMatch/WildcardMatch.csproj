@@ -4,11 +4,11 @@
     <TargetFrameworks>net40;netstandard1.0</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <PackageId>WildcardMatch</PackageId>
-    <Version>1.0.6</Version>
+    <Version>1.0.7</Version>
     <Company>picrap</Company>
     <PackageLicenseUrl>https://github.com/picrap/WildcardMatch/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/picrap/WildcardMatch</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/picrap/WildcardMatch/master/Icon/WildcardMatch.png</PackageIconUrl>
+    <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/picrap/WildcardMatch.git</RepositoryUrl>
     <Copyright>picrap</Copyright>
     <Description>String wildcard match (I can not believe no one already wrote a simple NuGet package to do this).</Description>
@@ -19,6 +19,14 @@
     <AssemblyOriginatorKeyFile>WildcardMatch.snk</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>string wildcard match extension method</PackageTags>
+    <PackageIcon>WildcardMatch.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Icon\WildcardMatch.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
