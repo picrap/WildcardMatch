@@ -116,5 +116,44 @@ namespace WildcardMatchTest
         {
             Assert.IsTrue("i*".WildcardMatch("ijk"));
         }
+        
+        [TestMethod]
+        public void AsteriskInMiddle()
+        {
+            Assert.IsFalse("abcdefgh.*.abcdefg.abcde".WildcardMatch("abcdefgh.50.abcdefg.abcdefg"));
+        }
+        
+        
+        [TestMethod]
+        public void AsteriskInMiddleMatch()
+        {
+            Assert.IsTrue("abcdefgh.*.abcdefg.abcde".WildcardMatch("abcdefgh.50.abcdefg.abcde"));
+        }
+        
+        
+        [TestMethod]
+        public void LongSameString()
+        {
+            Assert.IsTrue("abcdefghabcdefgabcde".WildcardMatch("abcdefghabcdefgabcde"));
+        }
+        
+        
+        [TestMethod]
+        public void LongerText()
+        {
+            Assert.IsFalse("abcdefghabcdefgabcde".WildcardMatch("abcdefghabcdefgabcdeIJKLMNOP"));
+        }
+        
+        [TestMethod]
+        public void LongerPattern()
+        {
+            Assert.IsFalse("abcdefghabcdefgabcde*hfjdh*hfjdhf".WildcardMatch("abcdefghabcdefgabcde"));
+        }
+        
+        [TestMethod]
+        public void MoreThanOneStar()
+        {
+            Assert.IsTrue("abcde*fghabcde*fgabcde*".WildcardMatch("abcde123fghabcde456fgabcde789"));
+        }
     }
 }
