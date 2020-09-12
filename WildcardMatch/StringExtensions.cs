@@ -53,9 +53,13 @@ namespace WildcardMatch
                         if (wildcardIndex == wildcard.Length - 1)
                             return true;
                         // test if a match follows
-                        return Enumerable.Range(sIndex, s.Length - 1).Any(i => WildcardMatch(wildcard, s, wildcardIndex + 1, i, ignoreCase));
+                        return Enumerable.Range(sIndex, s.Length - sIndex).Any(i => WildcardMatch(wildcard, s, wildcardIndex + 1, i, ignoreCase));
                     default:
                         var cc = ignoreCase ? char.ToLower(c) : c;
+                        if (s.Length == sIndex)
+                        {
+                            return false;
+                        }
                         var sc = ignoreCase ? char.ToLower(s[sIndex]) : s[sIndex];
                         if (cc != sc)
                             return false;
