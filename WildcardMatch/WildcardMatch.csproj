@@ -6,7 +6,7 @@
     <PackageId>WildcardMatch</PackageId>
     <Version>1.0.7</Version>
     <Company>picrap</Company>
-    <PackageLicenseUrl>https://github.com/picrap/WildcardMatch/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/picrap/WildcardMatch</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
     <RepositoryUrl>https://github.com/picrap/WildcardMatch.git</RepositoryUrl>
@@ -20,10 +20,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>string wildcard match extension method</PackageTags>
     <PackageIcon>WildcardMatch.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\Icon\WildcardMatch.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
